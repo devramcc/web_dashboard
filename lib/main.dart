@@ -5,7 +5,7 @@ import 'package:web_dashboard/controllers/menu_controller.dart';
 import 'package:web_dashboard/layout.dart';
 
 void main() {
-  Get.put(MenuController())
+  Get.put(MenuController());
   runApp(MyApp());
 }
 

@@ -4,7 +4,7 @@ import 'package:web_dashboard/constants/style.dart';
 import 'package:web_dashboard/routing/routes.dart';
 
 class MenuController extends GetxController{
-  static MenuController instance = Get.find()
+  static MenuController instance = Get.find();
   var activeItem = OverViewPageRoute.obs;
   var hoverItem = "".obs;
 
